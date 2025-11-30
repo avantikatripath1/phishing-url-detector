@@ -1,4 +1,4 @@
-# 🦠 Phishing URL Detector
+#  Phishing URL Detector
 
 An end-to-end machine learning-powered web application for real-time phishing URL detection.  
 Combines semantic (TF-IDF), heuristic (SSL, domain age, brand similarity, keyword patterns, etc.), and real-time blacklist signals with an XGBoost classifier for robust URL risk assessment.  
@@ -6,7 +6,7 @@ Features an interactive UI built in Streamlit and a backend REST API powered by 
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Detects phishing and benign URLs using ML + expert heuristics
 - Built with Python, Flask (REST API), and Streamlit (UI)
@@ -15,7 +15,7 @@ Features an interactive UI built in Streamlit and a backend REST API powered by 
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 - Python 3.x
 - Scikit-learn & XGBoost (model training and inference)
@@ -24,7 +24,7 @@ Features an interactive UI built in Streamlit and a backend REST API powered by 
 - Streamlit (frontend UI)
 - Requests, joblib
 
-## 🛠️ Installation
+##  Installation
 
 1. **Clone the repo**
    git clone https://github.com/avantikatripath1/phishing-url-detector.git
@@ -50,7 +50,7 @@ streamlit run ui.py
 
 ---
 
-## ⚡ Usage
+##  Usage
 
 - Enter any URL in the UI to check for phishing risk.
 - Displays risk level, reasons, ML score, and key signals.
@@ -58,7 +58,7 @@ streamlit run ui.py
 
 ---
 
-## 📋 Example
+##  Example
 
 {
 "url": "http://suspicious-site.example/login",
@@ -74,13 +74,13 @@ streamlit run ui.py
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 - AVANTIKA TRIPATHI(https://github.com/avantikatripath1)
 
 ---
 
-## ⭐ Contributing
+##  Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -88,6 +88,6 @@ Give a ⭐️ if you like this project!
 
 ---
 
-## 🛡️ License
+##  License
 
 This project is released under the MIT License.
